@@ -1,22 +1,24 @@
-Face Detection with dlib
+# Face Detection/Recognition with dlib
 
 Welcome to the Face Detection/Recognition repository! This project utilizes the dlib library to detect and recognize faces in images and videos.
 
-Repository Structure:
+## Repository Structure:
 
-  - **InputFolderForImageAndVideoFiles:** This folder contains the input images and videos on which you want to perform face detection and recognition.
-  
-  - **OutputFolder:** The output of the code will be saved in this folder. It includes annotated images/videos with detected faces.
-  
-  - **FaceRecognition_dlib.py:** The main Python script that implements face detection and recognition using the dlib model.
+- **InputFolderForImageAndVideoFiles:** This folder contains the input images and videos on which you want to perform face detection and recognition.
 
-Dependencies:
+- **OutputFolder:** The output of the code will be saved in this folder. It includes annotated images/videos with detected faces.
 
-  Make sure to install the required dependencies before running the code.
-       
-    pip install opencv-python dlib matplotlib
+- **FaceRecognition_dlib.py:** The main Python script that implements face detection and recognition using the dlib model.
 
-Instructions to Run:
+## Dependencies:
+
+Make sure to install the required dependencies before running the code.
+
+```bash
+pip install opencv-python dlib matplotlib
+```
+
+## Instructions to Run:
 
 1. **Clone the Repository:**
 
@@ -28,7 +30,7 @@ cd face-detection-recognition
 2. **Run the Code:**
 
 ```bash
-python FaceRecognition.py
+python FaceRecognition_dlib.py
 ```
 
 The script will process the images and videos in the input folder and save the results in the output folder.
@@ -47,7 +49,7 @@ This repository can be used for various applications, including:
 
 ## Code Functionality:
 
-The provided Python script, `FaceRecognition.py`, is designed to perform face detection and recognition using the dlib library. Here's an overview of how the code operates:
+The provided Python script, `FaceRecognition_dlib.py`, is designed to perform face detection and recognition using the dlib library. Here's an overview of how the code operates:
 
 ### Image Processing:
 
@@ -136,7 +138,3 @@ Enhance the documentation to guide users on incorporating different dlib models 
 We welcome contributions and suggestions to make these additions more versatile and useful! If you encounter any issues or have ideas for enhancement, please open an issue or submit a pull request.
 
 Happy coding! 🚀
-
----
-
-Feel free to make any further adjustments to suit your preferences or provide more specific details.
