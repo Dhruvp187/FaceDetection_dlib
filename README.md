@@ -1,4 +1,4 @@
-# Face Detection/Recognition with dlib
+# Face Detection with dlib
 
 Welcome to the Face Detection/Recognition repository! This project utilizes the dlib library to detect and recognize faces in images and videos.
 
